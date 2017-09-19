@@ -1,18 +1,18 @@
-# Story
-to create and maintain "testcases"
+# ストーリー
+「テストケース」の作成及び管理
 
-# Testcase 1
-## Conditions before starting test
-- [ ] Install test-targetted applications
-- [ ] Install the latest iOS to devices
-- [ ] Fully-charged devices
+# テストケース１
+## 前提条件
+- [ ] テスト対象のアプリをインストールしておく
+- [ ] 最新のiOSをインストールしておく
+- [ ] 端末をフル充電しておく
 
-## Test procedures
-1. Tap `1`
-2. Tap `2`
-3. Tap `3` (and check the log whether it has 'A' or not)
-4. Choose `Set` and Tap `OK`
+## テスト手順
+1. `1` をタップする
+2. `2` をタップする
+3. `3` をタップする（と同時にログに `A` が含まれていることを確認する）
+4. `Set` を選択し、 `OK` をタップする
 
-## Check items
-- [ ] `A` is displayed at the front of the screen
-- [ ] `3 times` is displayed at the right-bottom of the screen (right-aligned)
+## 確認すること
+- [ ] `A` が画面中央に表示されること
+- [ ] `3 times` が画面右下に表示されること（右寄せで）
